@@ -4,4 +4,4 @@
 
 <a href="https://github.com/REPNOT/DEV279x_Projects"><p align="center">Return to Main Project Page</p></a>
 
-<!-- copy and paste. Modify height and width if desired. --><iframe class="tscplayer_inline smart-player-embed-container-iframe embeddedObject" name="tsc_player" scrolling="no" frameborder="0" type="text/html" style="overflow:hidden;" src="https://www.screencast.com/users/Derek9407/folders/Video Projects/media/aad231eb-083c-4f79-aba7-2c304110bf27/embed" height="912" width="1200" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[![Watch the video](https://www.screencast.com/t/53XfJ9BRSfO)](https://www.screencast.com/t/aiR4kjGB)
