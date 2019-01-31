@@ -9,3 +9,5 @@
 <strong><b>This project is a simple JavaScript application that generates three dialog windows requesting the user to enter their name and two random numbers of the users choice.  The users name is added to the application headline and the random numbers selected by the user are used in a series of calculations for outputs 1 thru 5.</b></strong>
 
 <hr>
+
+<a href="https://github.com/REPNOT/DEV279x_Projects"><p align="center">Return to Profile Page</p></a>
