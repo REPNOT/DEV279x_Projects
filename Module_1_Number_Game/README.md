@@ -4,4 +4,4 @@
 
 <a href="https://github.com/REPNOT/DEV279x_Projects"><p align="center">Return to Main Project Page</p></a>
 
-[![Watch the video](https://www.screencast.com/t/53XfJ9BRSfO)](https://www.screencast.com/t/aiR4kjGB)
+[![Watch the video](https://www.screencast.com/t/53XfJ9BRSfO.png)](https://www.screencast.com/t/aiR4kjGB)
