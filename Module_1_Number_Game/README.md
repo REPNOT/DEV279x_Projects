@@ -4,7 +4,7 @@
 
 <hr>
 
-<center><p align="center"><strong><b>Application Demonstration Video<br>Project Assignment</b></strong></p></center>
+<p align="center"><strong>Application Demonstration Video<br><em>Please note that the following video does not contain sound.</strong></p>
 
 
 [![Watch the video](https://content.screencast.com/users/Derek9407/folders/Default/media/a02479c1-cfc0-4497-9d00-a03d5d5db514/Number_Game_GitHub.png)](https://www.screencast.com/t/aiR4kjGB)
