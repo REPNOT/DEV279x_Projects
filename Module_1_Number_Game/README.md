@@ -4,7 +4,7 @@
 
 <hr>
 
-<h1 align="center">Demonstration Video</h1>
+<h2 align="center">Demonstration Video</h2>
 
 <p align="center"><strong><em>Please note that the following video does not contain sound.</em></strong></p>
 
