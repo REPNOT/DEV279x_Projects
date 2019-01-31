@@ -1,4 +1,4 @@
-<h1>DEV279x Projects</h1>
+<h1 align="center">DEV279x Projects</h1>
 
 <strong><b>Project repository for Microsoft's DEV279x Building Interactive Prototypes using JavaScript course hosted on edX Online.</b></strong>
 
