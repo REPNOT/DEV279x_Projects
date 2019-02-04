@@ -1,6 +1,7 @@
 // program data:
 var number = Math.floor(Math.random() * 100);
 var guess;
+
 var limit = 5;
 var won =  false;
 var guesses = [];
@@ -21,13 +22,16 @@ for (var i = 1; i <= limit; i++){
     // if incorrect: add number to guesses array
     else{
         guesses[i] = guess;
+
         alert("incorrect. \nYou have guessed: " + guesses[i] + "\nTries remaining: " + (limit - i));
     }
 }
 
 // if the user ran out of tries, let them know the game is over
 if(!won){
-    document.write("Sorry, you ran out of tries. Game over. The correct number was: " + number);
+    document.getElementById("gameresults1").innerHTML = "Sorry, you ran out of tries.";
+    document.getElementById("gameresults2").innerHTML = "Game over.";
+    document.getElementById("gameresults3").innerHTML = "The correct number was: " + number;
 }
 
 function isPreviousGuess(){
