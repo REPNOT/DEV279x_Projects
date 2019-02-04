@@ -15,7 +15,7 @@ for (var i = 1; i <= limit; i++){
     
     // if correct: let the user know they won
     if(guess == number){
-        document.write("Correct! You won.");
+        document.getElementById("gameresults1").innerHTML = "Correct! You won.";
         won = true;
         break;
     }
