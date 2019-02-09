@@ -1,19 +1,21 @@
-var userInput1 = 0;
-var counter = 0;
-var list1 = [];
-var list2 = [];
+var element1 = document.getElementById("div2");
+var event1 = document.getElementsByTagName("body");
+var event2 = document.getElementById("button1");
+var event3 = document.getElementById("button1");
+var newToDo = console.log(document.getElementById("input1").getAttribute("value"));
 
-while(userInput1 != 2){
-    var userInput1 = window.prompt("Add ToDo?\n\n"
-                               + "[1] YES\n\n"
-                               + "[2] NO");
-    if(userInput1 == 1){
-        var newToDoText = window.prompt("Enter ToDo:\n");
-        var delToDoBut = "Done";
-        list1[counter] = newToDoText.toString();
-        list2[counter] = delTodDoBut;
-    }
+event1.onload = addTDFunc1;
+event2.onmousedown = addTDFunc2;
+event3.onmouseup = addTDFunc2;
+function addTDFunc1(){
+    let list1 = []
+    console.log(list1)
 };
 
-document.getElementById("div3").innerHTML = list1;
-document.getElementById("div4").innerHTML = list2;
+function addTDFunc2(){
+    console.list1.push(newToDo)
+};
+
+function addTDFunc2(){
+    element1.innerHTML = console.list1[0]
+};
