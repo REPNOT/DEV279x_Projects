@@ -1,0 +1,39 @@
+body {
+    background-color: dimgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+#div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#form1 {
+    border: 20px;
+    align-content: center;
+}
+
+
+#input1{
+    width: 200px;
+    height: 30px;
+    align-content: center;
+}
+
+#button1 {
+    width: 75px;
+    height: 37px;
+    align-content: center;
+}
+
+#button2 {
+    width: 75px;
+    height: 37px;
+    align-content: center;
+}
