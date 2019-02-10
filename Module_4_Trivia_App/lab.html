@@ -9,14 +9,16 @@
 
         <h1>Trivia App</h1>
 
-        <form action="" onsubmit="return verify1()" method="POST">
-            <h4 id="question"></h4>
-            <input id="choice1" name="answer1" type="radio"><p id="option1" class="choices">1</p></input>
-            <input id="choice2" name="answer2" type="radio"><p id="option2" class="choices">2</p></input>
-            <input id="choice3" name="answer3" type="radio"><p id="option3" class="choices">3</p></input>
-            <input id="choice4" name="answer4" type="radio"><p id="option4" class="choices">4</p></input>
-            <input id="submit1" type="submit"></input>
-        </form>
+        <div id="quizQuestion">
+            <form action="" onsubmit="return verify1()" method="POST">
+                <h4 id="question"></h4>
+                <input id="choice1" name="answer1" type="radio"><p id="option1" class="choices">1</p></input>
+                <input id="choice2" name="answer2" type="radio"><p id="option2" class="choices">2</p></input>
+                <input id="choice3" name="answer3" type="radio"><p id="option3" class="choices">3</p></input>
+                <input id="choice4" name="answer4" type="radio"><p id="option4" class="choices">4</p></input>
+                <input id="submit1" type="submit"></input>
+            </form>
+        </div>
 
         <div id="quizResults1">
             <h2 id="resultsHeader">Test</h2>
