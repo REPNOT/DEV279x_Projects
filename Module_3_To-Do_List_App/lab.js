@@ -1,21 +1,18 @@
-var element1 = document.getElementById("div2");
-var event1 = document.getElementsByTagName("body");
-var event2 = document.getElementById("button1");
-var event3 = document.getElementById("button1");
-var newToDo = console.log(document.getElementById("input1").getAttribute("value"));
+var button1 = document.getElementById("button1");
+var input1 = document.getElementById("input1");
+var taskList = document.getElementById("taskList");
 
-event1.onload = addTDFunc1;
-event2.onmousedown = addTDFunc2;
-event3.onmouseup = addTDFunc2;
-function addTDFunc1(){
-    let list1 = []
-    console.log(list1)
-};
-
-function addTDFunc2(){
-    console.list1.push(newToDo)
-};
-
-function addTDFunc2(){
-    element1.innerHTML = console.list1[0]
-};
+button1.addEventListener("click", function(){
+    var task = input1.value;
+    
+    if(task.trim()){
+        var newItem = document.createElement("LI");
+        var taskText = document.createTextNode(task);
+        newItem.appendChild(taskText);
+        input1.value = "";
+        taskList.appendChild(newItem);
+    }
+    else{
+        alert("Task cannot be empty");
+    }
+});

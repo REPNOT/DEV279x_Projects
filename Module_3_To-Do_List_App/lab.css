@@ -1,31 +1,62 @@
 body {
-    background-color: dimgray;
+    background-color: lightgrey;
 }
 
 h1 {
+    color: darkslategray;
     text-align: center;
 }
 
 #div1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-#input1{
-    width: 200px;
-    height: 30px;
-    align-content: space-around;
+#input1 {
+    padding: 10px;
+    color: darkslategray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 3px;
+    color: darkslategray;
+    font-weight: 550;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 #button1 {
-    width: 75px;
-    height: 37px;
-    align-content: center;
+    background-color: lightseagreen;
 }
 
 #button2 {
-    width: 75px;
-    height: 37px;
-    align-content: center;
+    background-color: cc1133;
+}
+
+button.remove {
+    padding: 5px;
+    margin-left: 20px;
+    background-color: lightslategrey;
+    opacity: 0.5;
+}
+
+button.remove:hover {
+    background-color: lightseagreen;
+}
+
+ul {
+    width: 75%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3em;
 }
