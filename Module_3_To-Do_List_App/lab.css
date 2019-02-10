@@ -1,5 +1,5 @@
 body {
-    background-color: lightgrey;
+    background-color: #3E4E9B;
 }
 
 #input {
@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    color: darkslategray;
+    color: #051149;
     text-align: center;
 }
 
@@ -30,25 +30,29 @@ button {
 }
 
 button#add {
-    background-color: lightseagreen;
+    color: #636A00;
+    background-color: #D7E047;
 }
 
 button#clear {
-    background-color: #cc1133;
+    color: #6B1400;
+    background-color: #E36648;
 }
 
 button.remove {
     padding: 5px;
     margin-left: 20px;
-    background-color: lightslategrey;
-    opacity: 0.5;
+    color: #8893C7;
+    background-color: #233690;
 }
 
 button.remove:hover {
-    background-color: lightseagreen;
+    color: #6B1400;
+    background-color: #F58C73;
 }
 
 ul{
+    
     width: 75%;
     margin: 20px auto;
     text-align: center;
