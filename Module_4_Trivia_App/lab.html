@@ -7,7 +7,41 @@
     </header>
     <body>
 
+        <h1>Trivia App</h1>
 
+        <form action="" onsubmit="return verify1()" method="POST">
+            <h4 id="question"></h4>
+            <input id="choice1" name="answer1" type="radio"><p id="option1" class="choices">1</p></input>
+            <input id="choice2" name="answer2" type="radio"><p id="option2" class="choices">2</p></input>
+            <input id="choice3" name="answer3" type="radio"><p id="option3" class="choices">3</p></input>
+            <input id="choice4" name="answer4" type="radio"><p id="option4" class="choices">4</p></input>
+            <input id="submit1" type="submit"></input>
+        </form>
+
+        <div id="quizResults1">
+            <h2 id="resultsHeader">Test</h2>
+            <div id="quizResults2">
+                <h4 id="resultsSubHeader">Test</h4>
+                <ul id="results">
+                    <li>Test</li>
+                    <li>Test</li>
+                    <li>Test</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="newQuestions">
+            <h2 id="newHeader">Test</h2>
+            <h4 id="newSubHeader">Test</h4>
+            <form action="" onsubmit="return verify2()" method="POST">
+                <input id="enterQuestion" name="enterQuestion" type="text">
+                <input id="enterAnswer1" name="enterAnswer1" type="text">
+                <input id="enterAnswer2" name="enterAnswer2" type="text">
+                <input id="enterAnswer3" name="enterAnswer3" type="text">
+                <input id="enterAnswer4" name="enterAnswer4" type="text">
+                <input id="submit2" type="submit">Submit Question</input>
+            </form>
+        </div>
 
         <script src="lab.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>

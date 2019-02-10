@@ -1,0 +1,15 @@
+h1, h2, h4 {
+    text-align: center;
+}
+
+#submit2 {
+    align-self: center;
+}
+
+#quizResults {
+    background-color: darkgray;
+    border: 10px;
+    border-style: solid;
+    border-color: darkgreen;
+}
+
