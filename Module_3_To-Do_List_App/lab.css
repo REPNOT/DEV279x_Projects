@@ -2,18 +2,18 @@ body {
     background-color: lightgrey;
 }
 
-h1 {
-    color: darkslategray;
-    text-align: center;
-}
-
-#div1 {
+#input {
     width: 75%;
     margin: 0 auto;
     text-align: center;
 }
 
-#input1 {
+h1 {
+    color: darkslategray;
+    text-align: center;
+}
+
+#task {
     padding: 10px;
     color: darkslategray;
     border: 1px solid lightgray;
@@ -23,18 +23,18 @@ h1 {
 button {
     padding: 10px;
     border-radius: 3px;
-    color: darkslategray;
+    color: darkslategrey;
     font-weight: 550;
     text-transform: uppercase;
     font-size: 12px;
 }
 
-#button1 {
+button#add {
     background-color: lightseagreen;
 }
 
-#button2 {
-    background-color: cc1133;
+button#clear {
+    background-color: #cc1133;
 }
 
 button.remove {
@@ -48,13 +48,13 @@ button.remove:hover {
     background-color: lightseagreen;
 }
 
-ul {
+ul{
     width: 75%;
     margin: 20px auto;
     text-align: center;
 }
 
-li {
+li{
     list-style-type: none;
     color: white;
     font-weight: 600;
