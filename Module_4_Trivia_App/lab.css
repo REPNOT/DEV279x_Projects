@@ -2,19 +2,27 @@ h1, h2, h4 {
     text-align: center;
 }
 
-#submit2 {
-    align-self: center;
+#grid {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 50px
+
+}
+
+h1 {
+    grid-column-start: 2;
+    grid-row-start: 0;
 }
 
 #quizQuestion {
-    display: block;
-    background-color: darkgray;
-    border: 10px;
-    border-style: solid;
-    border-color: darkgreen;
+    grid-column-start: 2;
+    grid-row-start: 1;
 }
 
 #quizResults1 {
+    grid-column-start: 2;
+    grid-row-start: 2;
     display: block;
     background-color: darkgray;
     border: 10px;
@@ -22,3 +30,11 @@ h1, h2, h4 {
     border-color: darkgreen;
 }
 
+#newQuestions {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+#submit2 {
+    align-self: center;
+}
