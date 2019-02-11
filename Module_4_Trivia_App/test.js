@@ -1,10 +1,10 @@
+let testList1 = [];
 var newQuestFull = $("#enterQuestion");
 var newQuestChoice1 = $("#enterAnswer1");
 var newQuestChoice2 = $("#enterAnswer2");
 var newQuestChoice3 = $("#enterAnswer3");
 var newQuestChoice4 = $("#enterAnswer4");
 var submitQuestion = $("#submit2");
-var dropDownAnswer = $("#correctAnswer");
 var dropDownOption1 = $("#option1");
 var dropDownOption2 = $("#option2");
 var dropDownOption3 = $("#option3");
@@ -32,6 +32,9 @@ newQuestChoice4.on("click", function(){
 });
 
 function test1(){
-    var newLocal = newQuestForm.correctAnswer.value;
-    document.write(newLocal);
+    var dropDownAnswer = $("select");
+    testList1.push(dropDownAnswer);
+    localStorage.setItem('answer', testList1[0]);
+    alert(localStorage.getItem('answer'));
+    alert(testList1[0])
 };
