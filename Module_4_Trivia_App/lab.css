@@ -3,7 +3,6 @@
     grid-template-columns: 50px 1fr 50px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-row-gap: 50px;
-    grid-column: 2;
 }
 
 h1 {
