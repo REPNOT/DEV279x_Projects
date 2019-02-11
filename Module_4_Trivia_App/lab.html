@@ -40,18 +40,26 @@
                     <li class="new"><h2 id="newHeader">Test</h2></li>
                     <li class="new"><h3 id="newSubHeader">Test</h3></li>
                 <form action="" onsubmit="return verify2()" method="POST">
-                    <li class="new"><input id="enterQuestion" name="enterQuestion" type="text" class="text"></input></li>
-                    <li class="new"><input id="enterAnswer1" name="enterAnswer1" type="text" class="text"></input></li>
-                    <li class="new"><input id="enterAnswer2" name="enterAnswer2" type="text" class="text"></input></li>
-                    <li class="new"><input id="enterAnswer3" name="enterAnswer3" type="text" class="text"></input></li>
-                    <li class="new"><input id="enterAnswer4" name="enterAnswer4" type="text" class="text"></input></li>
+                    <li class="new"><input id="enterQuestion" name="enterQuestion" type="text" class="text" value="Full Question"></input></li>
+                    <li class="new"><input id="enterAnswer1" name="enterAnswer1" type="text" class="text" value="Choice A"></input></li>
+                    <li class="new"><input id="enterAnswer2" name="enterAnswer2" type="text" class="text" value="Choice B"></input></li>
+                    <li class="new"><input id="enterAnswer3" name="enterAnswer3" type="text" class="text" value="Choice C"></input></li>
+                    <li class="new"><input id="enterAnswer4" name="enterAnswer4" type="text" class="text" value="Choice D"></input></li>
+                    <li class="new"><select id="correctAnswer" name="correctAnswer" class="dropDown">
+                        <option id="option1" class="dropDown" value="A">Choice A</option>
+                        <option id="option2" class="dropDown" value="B">Choice B</option>
+                        <option id="option3" class="dropDown" value="C">Choice C</option>
+                        <option id="option4" class="dropDown" value="D">Choice D</option>
+                    </select></li>
                     <li class="new"><input id="submit2" value="Submit Question" type="submit"></input></li>
                 </form>
                 </ul>
             </div>
         </div>
 
-        <script src="lab.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="test.js"></script>
+        <script src="lab.js"></script>
+
     </body>
 </html>
