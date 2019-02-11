@@ -1,33 +1,54 @@
-h1, h2, h4 {
-    text-align: center;
-}
-
 #grid {
     display: grid;
-    grid-template-columns: 100px 1fr 100px;
+    grid-template-columns: 50px 1fr 50px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 50px
-
+    grid-row-gap: 50px;
+    grid-column: 2;
 }
 
 h1 {
-    grid-column-start: 2;
-    grid-row-start: 0;
+    text-align: center;
+    background-color: darkgray;
+    border: 5px;
+    border-style: solid;
+    border-color: darkgreen;
+    border-radius: 15px;
+    box-shadow: #999 8px 8px 6px;
+}
+
+#question {
+    text-align: center;
+}
+
+#resultsHeader {
+    text-align: center;
 }
 
 #quizQuestion {
     grid-column-start: 2;
     grid-row-start: 1;
+    background-color: darkgray;
+    border: 5px;
+    border-style: solid;
+    border-color: darkgreen;
+    border-radius: 15px;
+    box-shadow: #999 8px 8px 6px;
 }
+
 
 #quizResults1 {
     grid-column-start: 2;
     grid-row-start: 2;
-    display: block;
+    text-align: center;
+}
+
+#quizResults2 {
     background-color: darkgray;
-    border: 10px;
+    border: 5px;
     border-style: solid;
     border-color: darkgreen;
+    border-radius: 15px;
+    box-shadow: #999 8px 8px 6px;
 }
 
 #newQuestions {
@@ -36,5 +57,31 @@ h1 {
 }
 
 #submit2 {
+    grid-column-start: 2;
     align-self: center;
+}
+
+input.text {
+    grid-column-start: 2;
+    align-self: center;
+    width: 80%;
+}
+
+li.results {
+    grid-column-start: 2;
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
+li.choices {
+    grid-column-start: 2;
+    list-style-type: none;
+    padding: 10px;
+}
+
+li.new {
+    grid-column-start: 2;
+    list-style-type: none;
+    text-align: center;
 }

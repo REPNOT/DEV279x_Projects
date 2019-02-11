@@ -7,44 +7,47 @@
     </header>
     <body>
 
-        <h1>Trivia App</h1>
-
+        <h1 id="header1">Trivia App</h1>
 
         <div id="grid">
             <div id="quizQuestion">
                 <form action="" onsubmit="return verify1()" method="POST">
-                    <h4 id="question">Test</h4>
-                    <input id="choice1" name="answer1" type="radio" class="choice1"><p id="option1" class="choices">1</p></input>
-                    <input id="choice2" name="answer2" type="radio"><p id="option2" class="choices">2</p></input>
-                    <input id="choice3" name="answer3" type="radio"><p id="option3" class="choices">3</p></input>
-                    <input id="choice4" name="answer4" type="radio"><p id="option4" class="choices">4</p></input>
-                    <input id="submit1" type="submit"></input>
+                    <h3 id="question"> Test</h3>
+                    <ul>
+                        <li id="option1" class="choices"><input id="choice1" name="answer1" type="radio">  1</input></li>
+                        <li id="option2" class="choices"><input id="choice2" name="answer2" type="radio">  2</input></li>
+                        <li id="option3" class="choices"><input id="choice3" name="answer3" type="radio">  3</input></li>
+                        <li id="option4" class="choices"><input id="choice4" name="answer4" type="radio">  4</input></li>
+                        <li class="choices"><input id="submit1" type="submit"></input></li>
+                    </ul>
                 </form>
             </div>
 
             <div id="quizResults1">
-                <h2 id="resultsHeader">Test</h2>
-                <div id="quizResults2">
-                    <h4 id="resultsSubHeader">Test</h4>
-                    <ul id="results">
-                        <li>Test</li>
-                        <li>Test</li>
-                        <li>Test</li>
-                    </ul>
-                </div>
+                <ul id="results">
+                    <li class="results"><h2>Test</h2></li>
+                    <div id="quizResults2">
+                    <li class="results"><h3 id="resultsSubHeader">Test</h3></li>
+                    <li class="results">Test</li>
+                    <li class="results">Test</li>
+                    <li class="results">Test</li>
+                    </div>
+                </ul>
             </div>
 
             <div id="newQuestions">
-                <h2 id="newHeader">Test</h2>
-                <h4 id="newSubHeader">Test</h4>
+                <ul class="new">
+                    <li class="new"><h2 id="newHeader">Test</h2></li>
+                    <li class="new"><h3 id="newSubHeader">Test</h3></li>
                 <form action="" onsubmit="return verify2()" method="POST">
-                    <input id="enterQuestion" name="enterQuestion" type="text">
-                    <input id="enterAnswer1" name="enterAnswer1" type="text">
-                    <input id="enterAnswer2" name="enterAnswer2" type="text">
-                    <input id="enterAnswer3" name="enterAnswer3" type="text">
-                    <input id="enterAnswer4" name="enterAnswer4" type="text">
-                    <input id="submit2" value="Submit Question" type="submit"></input>
+                    <li class="new"><input id="enterQuestion" name="enterQuestion" type="text" class="text"></input></li>
+                    <li class="new"><input id="enterAnswer1" name="enterAnswer1" type="text" class="text"></input></li>
+                    <li class="new"><input id="enterAnswer2" name="enterAnswer2" type="text" class="text"></input></li>
+                    <li class="new"><input id="enterAnswer3" name="enterAnswer3" type="text" class="text"></input></li>
+                    <li class="new"><input id="enterAnswer4" name="enterAnswer4" type="text" class="text"></input></li>
+                    <li class="new"><input id="submit2" value="Submit Question" type="submit"></input></li>
                 </form>
+                </ul>
             </div>
         </div>
 
