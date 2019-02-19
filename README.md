@@ -11,7 +11,9 @@ Project repository for Microsoft's DEV279x Building Interactive Prototypes using
 
 This project is a simple JavaScript application that generates three dialog windows requesting the user to enter their name and two random numbers of the users choice.  The users name is added to the application headline and the random numbers selected by the user are used in a series of calculations for outputs 1 thru 5.
 
-[**Project Demonstration Video**](https://www.screencast.com/t/jcrsuTHl213)
+<h3 align="center">Project Demonstration Video</h3>
+
+<a href="https://www.screencast.com/t/jcrsuTHl213"><img class="embeddedObject" src="https://content.screencast.com/users/Derek9407/folders/Default/media/c89b6a59-b42a-49d4-8c39-6d9acb2102c4/Github.png" width="756" height="426" border="0" /></a>
 
 <hr>
 
@@ -34,5 +36,3 @@ This project is a simple JavaScript application for creating a task list.  The u
 <hr>
 
 <h4 align="center"><a href="https://github.com/REPNOT">Return to Profile Page</a></h4>
-
-<iframe src="https://www.screencast.com/users/Derek9407/folders/Video+Projects/media/2511de3b-0203-48e7-bfdd-6de5b61588db/embed" height="540" width="960"></iframe>
