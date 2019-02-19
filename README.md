@@ -12,7 +12,7 @@
 
 <hr>
 
-[<h2 align="center">Module 2 - Guessing Game<br>Project Assignment</h2>](https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_2_Gussing_Game)
+[<h2>Module 2 - Guessing Game<br>Project Assignment<h2>](https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_2_Gussing_Game)
 
 <strong><b>The Guessing Game project is a simple JavaScript application that gives a user five attempts to guess a number 
 that is generated at the beginning of each game.  When the application is started the browsers dialog window will appear prompting the user to enter a number while displaying the number of attempts remaining.  At the end of the game the page will display the a message indicating whether the user has won or loss, along with the correct number.</b></strong>
