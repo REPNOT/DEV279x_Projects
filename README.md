@@ -13,7 +13,7 @@ This project is a simple JavaScript application that generates three dialog wind
 
 <h3 align="center">Project Demonstration Video</h3>
 
-<a href="https://www.screencast.com/t/jcrsuTHl213"><img class="embeddedObject" src="https://content.screencast.com/users/Derek9407/folders/Default/media/c89b6a59-b42a-49d4-8c39-6d9acb2102c4/Github.png" width="756" height="426" border="0" /></a>
+<h1 align="center"><a href="https://www.screencast.com/t/jcrsuTHl213"><img class="embeddedObject" src="https://content.screencast.com/users/Derek9407/folders/Default/media/c89b6a59-b42a-49d4-8c39-6d9acb2102c4/Github.png" width="756" height="426" border="0" /></a></h1>
 
 <hr>
 
