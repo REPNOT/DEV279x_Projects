@@ -4,15 +4,15 @@
 
 <hr>
 
-<a href="https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_1_Number_Game" target="_blank"><h2 align="center">Module 1 - The Number Game<br>Project Assignment</h2></a>
+[<h2 align="center">Module 1 - The Number Game<br>Project Assignment</h2>](https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_1_Number_Game)
 
 <strong><b>This project is a simple JavaScript application that generates three dialog windows requesting the user to enter their name and two random numbers of the users choice.  The users name is added to the application headline and the random numbers selected by the user are used in a series of calculations for outputs 1 thru 5.</b></strong>
 
-<a href="https://www.screencast.com/t/jcrsuTHl213"><p align="center"><strong>Project Demonstration Video</strong></p></a>
+[<h3 align="center">Project Demonstration Video</h3>](https://www.screencast.com/t/jcrsuTHl213)
 
 <hr>
 
-<a href="https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_2_Gussing_Game" target="_blank"><h1 align="center">Module 2 - Guessing Game<br>Project Assignment</h1></a>
+[<h2 align="center">Module 2 - Guessing Game<br>Project Assignment</h2>](https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_2_Gussing_Game)
 
 <strong><b>The Guessing Game project is a simple JavaScript application that gives a user five attempts to guess a number 
 that is generated at the beginning of each game.  When the application is started the browsers dialog window will appear prompting the user to enter a number while displaying the number of attempts remaining.  At the end of the game the page will display the a message indicating whether the user has won or loss, along with the correct number.</b></strong>
