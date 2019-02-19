@@ -1,6 +1,6 @@
 <h1 align="center" border="0">DEV279x Projects</h1>
 
-<h5 align="center">Project repository for Microsoft's DEV279x Building Interactive Prototypes using JavaScript course hosted on edX Online.</h5>
+<h5 align="center">Project repository for Microsoft's DEV279x Building Interactive Prototypes using JavaScript course hosted on edX.</h5>
 
 <hr>
 
