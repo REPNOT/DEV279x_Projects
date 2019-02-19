@@ -35,8 +35,4 @@ This project is a simple JavaScript application for creating a task list.  The u
 
 <h4 align="center"><a href="https://github.com/REPNOT">Return to Profile Page</a></h4>
 
-<h4 align="center">
-<a href="https://github.com/REPNOT">Return to Profile Page</a>
-</h4> 
-
-<center><h4 align="center"><a href="https://github.com/REPNOT">Return to Profile Page</a></h4></center>
+<a href="https://content.screencast.com/users/Derek9407/folders/Default/media/c89b6a59-b42a-49d4-8c39-6d9acb2102c4/Github.png"><img class="embeddedObject" src="https://content.screencast.com/users/Derek9407/folders/Default/media/c89b6a59-b42a-49d4-8c39-6d9acb2102c4/Github.png" width="1511" height="852" border="0" /></a>
