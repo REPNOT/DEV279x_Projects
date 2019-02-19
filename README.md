@@ -1,8 +1,6 @@
-DEV279x Projects
-===================
+<h1 align="center">DEV279x Projects</h1>
 
-Project repository for Microsoft's DEV279x Building Interactive Prototypes using JavaScript course hosted on edX Online.
-----------------------------------------------------------------------------------------------------------------------------
+<h4>Project repository for Microsoft's DEV279x Building Interactive Prototypes using JavaScript course hosted on edX Online.</h4>
 
 <hr>
 
@@ -17,7 +15,6 @@ This project is a simple JavaScript application that generates three dialog wind
 
 <hr>
 
-
 <h1 align="center"> test </h1>
 
 [**Module 2 - Guessing Game<br>Project Assignment**](https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_2_Gussing_Game) 
@@ -28,8 +25,7 @@ that is generated at the beginning of each game.  When the application is starte
 
 <hr>
 
-[**Module 3 - TODO App<br>Project Assignment**](https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_3_To-Do_List_App)
--------------------------------------------------------------------------------------------------------------------------------------
+<h2 align="center"><a href="https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_3_To-Do_List_App">Module 3 - TODO App<br>Project Assignment</a></h2>
 
 This project is a simple JavaScript application for creating a task list.  The user can add tasks to the list by typing text into the text input box and clicking the add button.  All tasks can be removed by clicking the remove button and tasks can be removed individually by pressing the done button located next to the desired task.  All tasks are stored will be removed when the browser is closed or refreshed.
 
