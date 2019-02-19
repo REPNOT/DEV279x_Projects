@@ -33,4 +33,4 @@ This project is a simple JavaScript application for creating a task list.  The u
 
 <hr>
 
-<a href="https://github.com/REPNOT"> <span align="center"> Return to Profile Page </span> </a>
+<a href="https://github.com/REPNOT"> <h4 align="center"> Return to Profile Page </h4> </a>
