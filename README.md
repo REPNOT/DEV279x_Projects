@@ -1,11 +1,11 @@
 <h1 align="center">DEV279x Projects</h1>
 
-<h4>Project repository for Microsoft's DEV279x Building Interactive Prototypes using JavaScript course hosted on edX Online.</h4>
+<h5>Project repository for Microsoft's DEV279x Building Interactive Prototypes using JavaScript course hosted on edX Online.</h5>
 
 <hr>
 
-[**Module 1 - The Number Game<br>Project Assignment**](https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_1_Number_Game)
--------------------------------------------------------------------------------------------------------------------------------------
+<h2 align="center"><a href="https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_1_Number_Game">Module 1 - The Number Game<br>Project Assignment/a></h2>
+
 
 This project is a simple JavaScript application that generates three dialog windows requesting the user to enter their name and two random numbers of the users choice.  The users name is added to the application headline and the random numbers selected by the user are used in a series of calculations for outputs 1 thru 5.
 
@@ -15,10 +15,7 @@ This project is a simple JavaScript application that generates three dialog wind
 
 <hr>
 
-<h1 align="center"> test </h1>
-
-[**Module 2 - Guessing Game<br>Project Assignment**](https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_2_Gussing_Game) 
---------------------------------------------------------------------------------------------------------------------------------------
+<h2 align="center"><a href="https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_2_Gussing_Game">Module 2 - Guessing Game<br>Project Assignment</a></h2>
 
 The Guessing Game project is a simple JavaScript application that gives a user five attempts to guess a number 
 that is generated at the beginning of each game.  When the application is started the browsers dialog window will appear prompting the user to enter a number while displaying the number of attempts remaining.  At the end of the game the page will display the a message indicating whether the user has won or loss, along with the correct number.
