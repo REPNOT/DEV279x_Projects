@@ -4,7 +4,7 @@
 
 <hr>
 
-[<h2 align="center">Module 1 - The Number Game<br>Project Assignment</h2>](https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_1_Number_Game)
+[<h2>Module 1 - The Number Game<br>Project Assignment</h2>](https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_1_Number_Game)
 
 <strong><b>This project is a simple JavaScript application that generates three dialog windows requesting the user to enter their name and two random numbers of the users choice.  The users name is added to the application headline and the random numbers selected by the user are used in a series of calculations for outputs 1 thru 5.</b></strong>
 
