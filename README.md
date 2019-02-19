@@ -16,16 +16,20 @@ This project is a simple JavaScript application that generates three dialog wind
 
 <hr>
 
-<h2 align="center"><a href="https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_2_Gussing_Game">Module 2 - Guessing Game<br>Project Assignment</a></h2>
+<h2 align="center">Module 2 - Guessing Game</h2>
 
 The Guessing Game project is a simple JavaScript application that gives a user five attempts to guess a number 
 that is generated at the beginning of each game.  When the application is started the browsers dialog window will appear prompting the user to enter a number while displaying the number of attempts remaining.  At the end of the game the page will display the a message indicating whether the user has won or loss, along with the correct number.
 
+<h3 align="center"><a href="https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_2_Gussing_Game">Project Assignment Repository</a></h3>
+
 <hr>
 
-<h2 align="center"><a href="https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_3_To-Do_List_App">Module 3 - TODO App<br>Project Assignment</a></h2>
+<h2 align="center">Module 3 - TODO App</h2>
 
 This project is a simple JavaScript application for creating a task list.  The user can add tasks to the list by typing text into the text input box and clicking the add button.  All tasks can be removed by clicking the remove button and tasks can be removed individually by pressing the done button located next to the desired task.  All tasks are stored will be removed when the browser is closed or refreshed.
+
+<h3 align="center"><a href="https://github.com/REPNOT/DEV279x_Projects/tree/master/Module_3_To-Do_List_App">Project Assignment Repository</a></h3>
 
 <hr>
 
